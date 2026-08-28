@@ -5,7 +5,7 @@
 //   cordis_define → 新建插件（idPrefix 如 "keqing"），
 //                   把本文件全部内容粘贴到 code.client；
 //   cordis_run   → 在授权卡片上确认即可。
-// 素材（3 张网页壁纸 + 中文大招语音「雷厉风行！」）已内嵌为
+// 素材（3 张网页壁纸 + 中文大招语音「无处可逃！」）已内嵌为
 // base64 数据 URI，不依赖任何本地文件。
 // 可选全画质模式：配合同目录 host.js 使用（自动检测并切换到
 // 原图素材，需在 host.js 中把 ASSET_DIR 改成素材文件夹路径）。
@@ -121,7 +121,7 @@ return {
     if (slots === undefined) return
     const disposeStyle = styles.insert(CSS)
     ctx.effect(() => disposeStyle)
-    const VOICE_TEXT = '雷厉风行！'
+    const VOICE_TEXT = '无处可逃！'
     const SKILL_TEXT = '元素爆发 · 天街巡游'
     const PARTICLE_COUNT = 22
     let disposeSlot = null
