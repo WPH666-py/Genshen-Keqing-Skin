@@ -8,7 +8,7 @@
 ## 效果
 
 - 页面右下角出现刻晴皮肤挂件（**最大 320×430px 自适应画框**，按每张壁纸的宽高比展示，整张立绘完整不裁切），可拖拽、可收起（× → “刻晴 ✦”胶囊），常态轻微浮动
-- **点击皮肤**：播放元素爆发「天街巡游」中文大招语音（其一「**雷厉风行！**」），同时播放爆发动作动画——雷光闪烁、紫色冲击波、五连快斩光、三道落雷、紫色雷晶碎屑飞散、技能名与台词字幕
+- **点击皮肤**：播放元素爆发「天街巡游」中文大招语音（其一「**无处可逃！**」），同时播放爆发动作动画——雷光闪烁、紫色冲击波、五连快斩光、三道落雷、紫色雷晶碎屑飞散、技能名与台词字幕
 - **壁纸切换**：卡片左上角 🖼 按钮一键切换下一张壁纸；右键菜单可任意选择 3 张壁纸（校服·抱臂 / 持剑·战斗 / 白衬衫·桌面）
 - **右键皮肤/胶囊**：菜单（释放元素爆发「天街巡游」 / 切换壁纸 / 收起 / **一键卸载**）；一键卸载需二次确认，确认后立即移除全部 UI 与素材路由（彻底删除插件记录可对 AI 说 `cordis_undefine`）
 - 连续点击可重复触发；语音每次只播一条
@@ -71,8 +71,8 @@ $b = [Convert]::ToBase64String([System.IO.File]::ReadAllBytes('新语音.mp3'))
 
 把输出整行替换 `client.js` 开头的 `const BURST_DATA_URI = '...'` 即可。刻晴其余中文大招语音（元素爆发「天街巡游」其二/其三，来自原神BWIKI）：
 
-- 其二 https://patchwiki.biligame.com/images/ys/b/b0/k3lb9qpih9dlh03nhq0ogbgrlgawq9b.mp3
-- 其三 https://patchwiki.biligame.com/images/ys/d/d6/g1v62v09rkpk17gij8yp6podnbt9tx6.mp3
+- 其二「剑出，影随——」 https://patchwiki.biligame.com/images/ys/b/b0/k3lb9qpih9dlh03nhq0ogbgrlgawq9b.mp3
+- 其三「剑光如我，斩尽芜杂！」 https://patchwiki.biligame.com/images/ys/d/d6/g1v62v09rkpk17gij8yp6podnbt9tx6.mp3
 
 ## 支持的形态
 
