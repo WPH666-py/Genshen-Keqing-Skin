@@ -69,7 +69,7 @@ return {
       burst: '/keqing-skin/burst.mp3',
     })))
     cleanup.push(harness.handle('keqing-status', async () => {
-      const status = { walls: [], burstOk: false, detail: '', voiceText: '雷厉风行！', skill: '天街巡游' }
+      const status = { walls: [], burstOk: false, detail: '', voiceText: '无处可逃！', skill: '天街巡游' }
       for (const route of ROUTES) {
         try {
           const bytes = await load(route.file)
