@@ -11,9 +11,9 @@
 const ASSET_DIR = 'D:/projects-py/原始系列皮肤插件/刻晴动态皮肤插件（独立版）/素材'
 const MAX_BYTES = 16 * 1024 * 1024
 const ROUTES = [
-  { route: '/keqing-skin/wallpaper-1.png', file: '刻晴-校服抱臂.png', type: 'image/png' },
+  { route: '/keqing-skin/wallpaper-1.png', file: '刻晴-白衬衫.png', type: 'image/png' },
   { route: '/keqing-skin/wallpaper-2.jpg', file: '刻晴-持剑战斗.jpg', type: 'image/jpeg' },
-  { route: '/keqing-skin/wallpaper-3.png', file: '刻晴-白衬衫.png', type: 'image/png' },
+  { route: '/keqing-skin/wallpaper-3.png', file: '刻晴-校服抱臂.png', type: 'image/png' },
   { route: '/keqing-skin/burst.mp3', file: '语音-元素爆发·其一.mp3', type: 'audio/ogg' },
 ]
 const join = (dir, name) => dir.replace(/[\\/]+\s*$/, '') + '/' + name
